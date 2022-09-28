@@ -39,13 +39,11 @@ section{
 }
 
 .navbar {
-    background: #141414; 
+    background: #141414d8; 
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
-.logo-text{
-    font-size: 22px;
-    text-transform: uppercase;
-    color: #771d1d;
+.logo-img{
+    width: 30px;
 }
 .navbar .nav-link{
     font-size: 12px;
@@ -78,9 +76,10 @@ section{
 
 #biografia{
     background: #e6e6e6;
+    margin-bottom: 130px;
 }
 .section-bio{
-    max-height: 450px;
+    max-height: 300px;
 }
 .pattern-style{
     text-align: justify;
@@ -105,6 +104,17 @@ section{
 
 #hobbies{
     max-height: 500px;
-    margin: 50px;
+    margin: auto;
     background: #e6e6e6;
+}
+
+#transiction{
+    background:  url(images/universe.jpg);
+    margin: auto;
+    min-height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
 }
