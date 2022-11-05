@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate&family=Vollkorn+SC&display=swap');
+
+*{   
+    margin: 0;
+    padding: 0;
+}
+
+::selection{
+    background-color: #ca5d5d;
+}
+
+body{
+    background: #e6e6e6;
+    line-height: 1.8;
+    font-size: 15px;
+    font-family: 'Mate', serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Vollkorn SC', serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #1b0000;
+}
+
+a{
+    font-weight: 700;
+    transition: all 0.4s ease;
+    text-decoration: none;
+    color: #720c0c;
+}
+a:hover{
+    color: #3d0000;
+}
+
+img{
+    width: 100%;
+}
+section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.navbar {
+    background: #141414; 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.logo-text{
+    font-family: 'Vollkorn SC', serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #771d1d;
+}
+.navbar .nav-link{
+    font-family: 'Vollkorn SC', serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #838383;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navbar .nav-link:hover{
+    color: #771d1d;
+}
+
+.navbar .nav-link.active{
+    color: #9e1212;
+}
+
+#home{
+    background:  url(images/wllpHome.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+#principal{
+    padding: 2rem 0 1rem;
+}
+
+.transiction{
+    background:  url(images/universe.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-height: 60vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+
+.hline{
+    width:30px;
+    height: 3px;
+    background-color: #5c3c3c;
+    margin: 16px auto 16px auto;
+    border-radius: 10px;
+}
+
+.citacao{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #4e4e4e;
+    font-style: italic;
+}
+#imgSquare{
+    width: 280px;
+    height: 280px;
+    background-size: cover;
+    float: right;
+    border-radius: 20%;
+}
+
+.subtitulo{
+    padding-top: 110px;
+    font-size: 20px;
+    font-family: 'Vollkorn SC', serif;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+    color: #333333;
+}
+
+.btn{
+    background-color: #720c0c;
+    margin-bottom: 30px;
+}
+.btn:hover{
+    background-color: #141414;
+}
+
+.btn value{
+    color: #e6e6e6;
+}
+
+.balao {
+    width: 320px;
+    float: left;
+    text-align: left;
+    padding: 10px 5px;
+}
